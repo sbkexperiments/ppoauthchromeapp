@@ -1,0 +1,17 @@
+{
+  "name": "Sample Chrome App for PayPal OAUTH",
+  "description": "Sample Chrome App for PayPal OAUTH",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "icon.png", "128": "icon.png" },
+  "permissions": [
+    "identity",
+    "https://www.paypal.com/",
+    "https://api.paypal.com/"
+  ]
+}
